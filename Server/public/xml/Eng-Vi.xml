@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dict>
+    <word>
+        <vi>xin chào</vi>
+        <en>hello</en>
+    </word>
+    <word>
+        <vi>chào buổi sáng</vi>
+        <en>good morning</en>
+    </word>
+    <word>
+        <vi>chào buổi chiều</vi>
+        <en>good afternoon</en>
+    </word>
+    <word>
+        <vi>chào buổi tối</vi>
+        <en>good evening</en>
+    </word>
+    <word>
+        <vi>bữa ăn sáng</vi>
+        <en>breakfast</en>
+    </word>
+    <word>
+        <vi>bữa ăn trưa</vi>
+        <en>have lunch</en>
+    </word>
+    <word>
+        <vi>bữa ăn tối</vi>
+        <en>have dinner</en>
+    </word>
+    <word>
+        <en>girl</en>
+        <vi>con gái</vi>
+    </word>
+    <word>
+        <en>boy</en>
+        <vi>con trai</vi>
+    </word>
+    <word>
+        <en>kid</en>
+        <vi>trẻ em</vi>
+    </word>
+    <word>
+        <en>huge</en>
+        <vi>người khổng lồ</vi>
+    </word>
+</dict>

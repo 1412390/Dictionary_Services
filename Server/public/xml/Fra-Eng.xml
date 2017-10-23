@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dict>
+    <word>
+        <fr>bonjour</fr>
+        <en>hello</en>
+    </word>
+    <word>
+        <fr>bonjour</fr>
+        <en>good morning</en>
+    </word>
+    <word>
+        <fr>bon après-midi</fr>
+        <en>good afternoon</en>
+    </word>
+    <word>
+        <fr>bonsoir</fr>
+        <en>good evening</en>
+    </word>
+    <word>
+        <fr>déjeuner</fr>
+        <en>breakfast</en>
+    </word>
+    <word>
+        <fr>déjeuner</fr>
+        <en>have lunch</en>
+    </word>
+    <word>
+        <fr>souper</fr>
+        <en>have dinner</en>
+    </word>
+    <word>
+        <fr>les femmes</fr>
+        <en>girl</en>
+    </word>
+    <word>
+        <fr>les hommes</fr>
+        <en>boy</en>
+    </word>
+    <word>
+        <fr>les enfants</fr>
+        <en>kid</en>
+    </word>
+    <word>
+        <fr>Géant</fr>
+        <en>huge</en>
+    </word>
+</dict>

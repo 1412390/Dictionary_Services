@@ -1,0 +1,46 @@
+extends layout
+
+block content
+  .site-wrapper
+    .site-wrapper-inner
+      .cover-container
+        header.masthead.clearfix
+          .inner
+            h3.masthead-brand Dictionary Web Services
+            nav.nav.nav-masthead
+              a.nav-link.active(href='javascript:void(0)' data-type="0") Fra - Eng
+              a.nav-link(href='javascript:void(0)' data-type="1") Fra - Vi
+              a.nav-link(href='javascript:void(0)' data-type="2") Eng - Vi
+        main.inner.cover(role='main')
+          h1.cover-heading Browse Dictionary
+          p.lead
+            | Dictionary.com is the world’s leading online source for English definitions, synonyms, word origins, audio pronunciations, example sentences, slang phrases, idioms, word games, legal and medical terms, Word of the Day and more...
+          p.lead
+            form#form-dictionary(method="post", action="/dictionary")
+              div.form-group
+                input.form-control.input-lg(type="text" required maxlength="20" placeholder="Enter a word", id="txt-word")
+              button.btn.btn-lg.btn-secondary(type='submit', data-toggle='modal', data-target='#exampleModal', id="btn_showmodal")
+                | Search
+              // Modal
+              #exampleModal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='exampleModalLabel', aria-hidden='true')
+                .modal-dialog(role='document')
+                  .modal-content
+                    .modal-header
+                      h5#exampleModalLabel.modal-title Word
+                      button.close(type='button', data-dismiss='modal', aria-label='Close')
+                        span(aria-hidden='true') ×
+                    .modal-body
+                      span#span_word(style="color: black;")
+                      br
+                      span#span_mean(style="color: black;")
+
+                    .modal-footer
+                      button.btn.btn-danger(type='button', data-dismiss='modal') Close
+        footer.mastfoot
+          .inner
+            p
+              | Cover template for
+              a(href='https://getbootstrap.com/') Bootstrap
+              | , by
+              a(href='https://twitter.com/mdo') @mdo
+              | .
